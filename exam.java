@@ -7,7 +7,7 @@ Scanner sc=new Scanner(System.in);
 int s=0,d=0,count=0;
 int x=sc.nextInt();
 int p=sc.nextInt();
-while(x!=0)
+while(x>0)
 {
 s=100-p;
 d=(s*x)/100;
